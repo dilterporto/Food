@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Food.Orders.Application.Domain\Food.Orders.Application.Domain.csproj" />
+        <ProjectReference Include="..\Food.Orders.Application.Domain.Persistence\Food.Orders.Application.Domain.Persistence.csproj" />
+    </ItemGroup>
+
+</Project>
